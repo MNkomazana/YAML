@@ -1,0 +1,15 @@
+---
+# Practicing YAML
+# Creating an object named car
+
+- hosts: Router
+  become: true
+  gather_facts: false
+  connection: local
+
+  tasks:
+    - name: Configure IPv6 globally
+      ios_command:
+        commands:
+          - ipv6 unicast routing
+
