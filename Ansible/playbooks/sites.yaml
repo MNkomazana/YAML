@@ -12,4 +12,10 @@
       ios_command:
         commands:
           - ipv6 unicast routing
+    
+    - name: Enable and configure L3 interfaces
+      ios_config:
+        config:
+          ipv4:
+            
 
