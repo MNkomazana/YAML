@@ -1,0 +1,8 @@
+---
+  #Creating an inventory in YAML format
+  Routers:
+    hosts:
+      Router01:
+        - name:
+          ansible_host: {ip address}
+          ansible_net_os: cisco.ios.ios
